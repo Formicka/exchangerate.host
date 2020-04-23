@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="contact pt-10">
                                     <p class="text">Tulská 3240/33, Žilina 01008<br> Slovak Republic</p>
-                                    <p class="text">support@uideck.com</p>
+                                    <p class="text">support@exchangerate.host</p>
 
                                     <!--
                                     <ul class="social mt-40">
