@@ -1,0 +1,57 @@
+{
+    "name": "exchangerate.host",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "dev": "vue-cli-service serve --port $PORT",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@vue/cli": "^4.3.1",
+        "core-js": "^2.6.5",
+        "dateformat": "^3.0.3",
+        "node-cache": "^5.1.0",
+        "prismjs": "^1.20.0",
+        "request": "^2.88.1",
+        "underscore": "^1.7.0",
+        "vue": "^2.6.10",
+        "vue-head": "^2.2.0",
+        "vue-prism-component": "^1.2.0",
+        "vue-router": "^3.1.6",
+        "xml2js": "^0.4.4"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.9.0",
+        "@vue/cli-plugin-eslint": "^3.9.0",
+        "@vue/cli-service": "^3.9.0",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
