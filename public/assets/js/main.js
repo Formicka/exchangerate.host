@@ -229,19 +229,7 @@ $(function() {
         slidesToShow: 1,
     });
     
-    
-    //===== Magnific Popup
-    
-    $('.image-popup').magnificPopup({
-      type: 'image',
-      gallery:{
-        enabled:true
-      }
-    });
-    
-    
-    
-    
+        
     //=====  WOW active
     
     new WOW().init();

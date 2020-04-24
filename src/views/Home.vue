@@ -1,17 +1,15 @@
 <template>
-    <div>
-        
-        <InNumbers></InNumbers>
-        
-        <Services></Services>
+  <div>
+    <InNumbers></InNumbers>
 
-        <Docs></Docs>
+    <Services></Services>
 
-        <Faq></Faq>
+    <Docs></Docs>
 
-        <Footer></Footer>
+    <Faq></Faq>
 
-    </div>
+    <Footer></Footer>
+  </div>
 </template>
 
 <script>
@@ -22,29 +20,26 @@ import Footer from "@/components/sections/Footer.vue";
 import InNumbers from "@/components/sections/InNumbers.vue";
 
 export default {
-    name: "Home",
-    components: {
-        Footer,
-        Faq,
-        Services,
-        InNumbers,
-        Docs
-    },   
-    data: function() {     
-        return {
-            loading: true,
-            author: "",
-            message: "",
-            title: "",
-            description: ""
-        }
-    },
-    head: {
-        title: function() {
-            return {
-                inner: this.title
-            };
-        }
+  name: "Home",
+  components: {
+    Footer,
+    Faq,
+    Services,
+    InNumbers,
+    Docs
+  },
+  data: function() {
+    return {
+      title: "Foreign exchange rates API with currency conversion for Free",
+      description: "Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank"
+    };
+  },
+  head: {
+    title: function() {
+      return {
+        inner: this.title
+      };
     }
+  }
 };
 </script>

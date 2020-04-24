@@ -17,7 +17,7 @@
                                 <img src="@/assets/images/service-1.png" alt="Icon">
                             </div>
                             <div class="service-content media-body">
-                                <h4 class="service-title">Fast & reliable</h4>
+                                <h4 class="service-title">Ultra Fast & reliable</h4>
                                 <p class="text">
                                     Exchange rates API has been designed and tested to handle thousands of request per
                                     second. Also constantly monitored.
@@ -72,7 +72,7 @@
                             <div class="service-content media-body">
                                 <h4 class="service-title">Trusted sources</h4>
                                 <p class="text">
-                                    Currency data delivered by Fixer is sourced from financial data providers and banks,
+                                    Currency data delivered are sourced from financial data providers and banks,
                                     including the European Central Bank.
                                 </p>
                             </div>
@@ -108,9 +108,8 @@
                                 <img src="@/assets/images/service-3.png" alt="Icon">
                             </div>
                             <div class="service-content media-body">
-                                <h4 class="service-title">Quality Support</h4>
-                                <p class="text">Lorem Ipsum is simply dummy tex of the printing and typesetting
-                                    industry. Lorem Ipsum .</p>
+                                <h4 class="service-title">Developer Focused</h4>
+                                <p class="text"> Helpful documentation, high uptime and fast support. Very Easy to Implement.</p>
                             </div>
                             <div class="shape shape-4">
                                 <img src="@/assets/images/shape/shape-4.svg" alt="shape">

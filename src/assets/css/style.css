@@ -3142,6 +3142,10 @@ p {
     cursor: pointer !important;
 }
 
+#codes>li>a.active {
+    color: #000;
+}
+
 #codes>li>a:active,
 #codes>li>a:focus,
 #codes>li>a:hover,

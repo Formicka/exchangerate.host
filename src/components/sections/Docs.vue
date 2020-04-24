@@ -31,7 +31,7 @@
 
                         <ul class="nav justify-content-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"
                             id="myTab" role="tablist"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;">
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn; cursor:pointer;">
                             <li 
                                     v-for="tab in mainTabs"
                                     v-bind:key="tab"
@@ -45,7 +45,9 @@
                         </ul>
 
                         <div class="tab-content" id="myTabContent">
+                            <keep-alive>
                             <component v-bind:is="mainTabComponent" v-bind:baseUrl="baseUrl" class="tab-content"></component>
+                            </keep-alive>
                         </div>
                     </div>
                 </div>
@@ -88,13 +90,24 @@ export default {
         mainTabComponent: {
             deep: false,
             handler: function (value) {
-                this.baseUrl = value;
+                let map = {
+                    'maintab-supported-symbols': 'symbols',
+                    'maintab-fluctuation-data': 'fluctuation',
+                    'maintab-time-series-data': 'timeseries',
+                    'maintab-historical-rates': '[YYYY-MM-DD]',
+                    'maintab-convert-currency': 'convert',
+                    'maintab-latest-rates': 'latest'
+                };
+
+                this.baseUrl = this.hostname + map[value];
             }
         }
     },
-    data: function() {     
+    data: function() {    
+        const hostname = 'https://api.exchangerate.host/'; 
         return {
-            baseUrl: "https://api.exchangerate.host/latest",
+            hostname: hostname,
+            baseUrl: hostname + 'latest',
             currentTab: "javascript",
             tabs: [
                 "Javascript", 

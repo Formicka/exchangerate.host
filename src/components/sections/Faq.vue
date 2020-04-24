@@ -17,7 +17,7 @@
                     <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s"
                         style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUpBig;">
                         <div class="blog-content">
-                            <h4 class="blog-title">Where is Fixer data coming from?</h4>
+                            <h4 class="blog-title">Where is data coming from?</h4>
                             <div class="blog-author d-flex align-items-center">
                                 <div class="author-content media-body">
                                     <p class="text">

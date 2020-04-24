@@ -31,7 +31,7 @@
                             </div> 
 
                             <div class="navbar-btn d-none d-sm-inline-block">
-                                <a class="main-btn" data-scroll-nav="0" href="#docs">API documentation</a>
+                                <a class="main-btn" href="#docs">API documentation</a>
                             </div>
                         </nav>
                     </div>
@@ -40,7 +40,7 @@
         </div>
 
         <div id="home" class="header-hero bg_cover d-lg-flex align-items-center"
-            style="background-image: url(@/assets/images/header-hero.jpg)">
+            v-bind:style="{ backgroundImage: 'url(' + require('@/assets/images/header-hero.jpg') + ')' }" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">

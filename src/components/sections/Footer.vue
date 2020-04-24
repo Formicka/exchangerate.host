@@ -1,6 +1,6 @@
 <template>
     <div>
-        <footer id="footer" class="footer-area mt-115 bg_cover" style="background-image: url(@/assets/images/footer-bg.jpg)">
+        <footer id="footer" class="footer-area mt-115 bg_cover" v-bind:style="{ backgroundImage: 'url(' + require('@/assets/images/footer-bg.jpg') + ')' }">
             <div class="container">
                 <div class="footer-widget pt-30 pb-70">
                     <div class="row">
