@@ -92,10 +92,10 @@ export default {
             handler: function (value) {
                 let map = {
                     'maintab-supported-symbols': 'symbols',
-                    'maintab-fluctuation-data': 'fluctuation',
-                    'maintab-time-series-data': 'timeseries',
+                    'maintab-fluctuation-data': 'fluctuation?start_date=2020-01-01&end_date=2020-01-04',
+                    'maintab-time-series-data': 'timeseries?start_date=2020-01-01&end_date=2020-01-04',
                     'maintab-historical-rates': '[YYYY-MM-DD]',
-                    'maintab-convert-currency': 'convert',
+                    'maintab-convert-currency': 'convert?from=USD&to=EUR',
                     'maintab-latest-rates': 'latest'
                 };
 
