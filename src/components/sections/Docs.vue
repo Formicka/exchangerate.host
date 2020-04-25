@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <div class="section-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="section-title text-center"
+                        style="visibility: visible;">
                         <h6 class="sub-title mb-10">API documentation</h6>
                         <p>
                             The API comes with multiple endpoints, each serving a different use case. Endpoint
@@ -18,8 +18,8 @@
             
             <div class="row justify-content-center">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <div class="section-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="section-title text-center"
+                        style="visibility: visible;">
                         <h4 class="title">Bunch of API endpoints <span>to Rock Your Business</span></h4>
                     </div>
                 </div>
@@ -29,9 +29,9 @@
                 <div class="col-lg-12">
                     <div class="our-services-tab pt-30">
 
-                        <ul class="nav justify-content-center wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"
+                        <ul class="nav justify-content-center"
                             id="myTab" role="tablist"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn; cursor:pointer;">
+                            style="visibility: visible; ">
                             <li 
                                     v-for="tab in mainTabs"
                                     v-bind:key="tab"

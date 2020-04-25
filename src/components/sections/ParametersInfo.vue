@@ -1,5 +1,5 @@
 <template>
-  <table class="mt-20 table table-sm">
+  <table class="mt-3 table table-sm">
     <tr>
       <td colspan="2">
         <strong>Request GET parameters:</strong>

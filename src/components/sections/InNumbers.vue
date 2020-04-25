@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9">
-                    <div class="about-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="about-title text-center" >
                         <h6 class="welcome">Let the numbers talk</h6>
                         <h3 class="title">Exchange rates API is a <span>free service </span> for current and historical
                             foreign exchange rates.</h3>
@@ -18,8 +18,7 @@
                         <div class="about-counter">
                             <div class="row">
                                 <div class="col-sm-4">
-                                    <div class="single-counter counter-color-1 mt-30 d-flex wow fadeInUp"
-                                        data-wow-duration="1s" data-wow-delay="0.3s">
+                                    <div class="single-counter counter-color-1 mt-30 d-flex">
                                         <div class="counter-shape">
                                             <span class="shape-1"></span>
                                             <span class="shape-2"></span>
@@ -31,8 +30,7 @@
                                     </div> <!-- single counter -->
                                 </div>
                                 <div class="col-sm-4">
-                                    <div class="single-counter counter-color-2 mt-30 d-flex wow fadeInUp"
-                                        data-wow-duration="1s" data-wow-delay="0.6s">
+                                    <div class="single-counter counter-color-2 mt-30 d-flex">
                                         <div class="counter-shape">
                                             <span class="shape-1"></span>
                                             <span class="shape-2"></span>
@@ -44,8 +42,7 @@
                                     </div> <!-- single counter -->
                                 </div>
                                 <div class="col-sm-4">
-                                    <div class="single-counter counter-color-3 mt-30 d-flex wow fadeInUp"
-                                        data-wow-duration="1s" data-wow-delay="0.9s">
+                                    <div class="single-counter counter-color-3 mt-30 d-flex">
                                         <div class="counter-shape">
                                             <span class="shape-1"></span>
                                             <span class="shape-2"></span>

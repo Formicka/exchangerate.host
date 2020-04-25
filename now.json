@@ -1,4 +1,12 @@
 {
     "version": 2,
-    "name": "exchangerate.host"
+    "name": "exchangerate.host",
+    "env": {
+        "UPTIMEROBOT_API_KEY": "@uptimerobot-api-key"
+    },
+    "build": {
+        "env": {
+            "UPTIMEROBOT_API_KEY": "@uptimerobot-api-key"
+        }
+    }
 }

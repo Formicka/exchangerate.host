@@ -3,9 +3,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-4">
-                    <div class="section-title text-center pb-20 wow fadeInUp" data-wow-duration="1s"
-                        data-wow-delay="0.3s"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="section-title text-center" style="visibility: visible;">
                         <h6 class="sub-title">
                             Frequently Asked Questions
                         </h6>
@@ -14,8 +12,8 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6 col-sm-8">
-                    <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUpBig;">
+                    <div class="single-blog mt-30"
+                        style="visibility: visible;">
                         <div class="blog-content">
                             <h4 class="blog-title">Where is data coming from?</h4>
                             <div class="blog-author d-flex align-items-center">
@@ -31,8 +29,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8">
-                    <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUpBig;">
+                    <div class="single-blog mt-30"
+                        style="visibility: visible;">
                         <div class="blog-content">
                             <h4 class="blog-title">Can I convert currencies?</h4>
                             <div class="blog-author d-flex align-items-center">
@@ -46,8 +44,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8">
-                    <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUpBig;">
+                    <div class="single-blog mt-30"
+                        style="visibility: visible; ">
                         <div class="blog-content">
                             <h4 class="blog-title">Which type of historical rates does the API offer?</h4>
                             <div class="blog-author d-flex align-items-center">
@@ -61,8 +59,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-8">
-                    <div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s"
-                        style="visibility: visible; animation-duration: 1s; animation-delay: 1s; animation-name: fadeInUpBig;">
+                    <div class="single-blog mt-30 "
+                        style="visibility: visible;">
                         <div class="blog-content">
                             <h4 class="blog-title">What is the API's uptime?</h4>
                             <div class="blog-author d-flex align-items-center">

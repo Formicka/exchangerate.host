@@ -2504,9 +2504,18 @@ p {
        11.FOOTER css 
 ===========================*/
 
+#footer {
+    text-align: left !important;
+}
+
+.footer-about .navbar-brand strong {
+    color: #000 !important;
+}
+
 .footer-about .text {
     padding-top: 25px;
     font-size: 16px;
+    color: #999FA6 !important;
 }
 
 .footer-title .title {
@@ -2530,8 +2539,14 @@ p {
     transition: all 0.3s ease-out 0s;
 }
 
+.footer-link ul li a {
+    color: #999FA6 !important;
+    font-weight: normal !important;
+}
+
 .footer-link ul li a:hover {
-    color: #222;
+    color: #222 !important;
+    font-weight: normal !important;
 }
 
 .footer-contact .text {
@@ -3201,4 +3216,8 @@ table td {
 
 table {
     margin: 0 auto;
+}
+
+#myTab a {
+    cursor: pointer !important;
 }

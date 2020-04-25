@@ -1,5 +1,39 @@
 <template>
   <div>
+    <div
+      id="home"
+      class="header-hero bg_cover d-lg-flex align-items-center"
+      v-bind:style="{ backgroundImage: 'url(' + require('@/assets/images/header-hero.jpg') + ')' }"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="header-hero-content">
+              <h1 class="hero-title">
+                Free
+                <b>foreign exchange</b>
+                <br />rates
+                <span>API</span>
+              </h1>
+
+              <p class="text">
+                Exchange rates API is a simple and lightweight free service for current and historical
+                foreign exchange rates.
+              </p>
+              <div class="pricing-btn pt-70">
+                <a class="main-btn" href="#docs">explore the docs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-hero-image d-flex align-items-center">
+        <div class="image">
+          <img src="@/assets/images/hero-image.png" alt="Hero Image" />
+        </div>
+      </div>
+    </div>
+
     <InNumbers></InNumbers>
 
     <Services></Services>
@@ -31,7 +65,8 @@ export default {
   data: function() {
     return {
       title: "Foreign exchange rates API with currency conversion for Free",
-      description: "Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank"
+      description:
+        "Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank"
     };
   },
   head: {

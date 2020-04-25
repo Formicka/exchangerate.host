@@ -3,13 +3,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center col-md-12">
-                    <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="section-title">
                         <h6 class="sub-title">Why Us</h6>
                         <h4 class="title">The reasons to choose us <span>as your partner</span></h4>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            <div class="service-wrapper mt-60 pb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+            <div class="service-wrapper mt-60 pb-50">
                 <div class="row no-gutters justify-content-center">
                     <div class="col-lg-4 col-md-7">
                         <div class="single-service d-flex">
