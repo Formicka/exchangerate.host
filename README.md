@@ -1,4 +1,4 @@
-## [https://exchangerate.host](exchangerate.host)
+## [exchangerate.host](https://exchangerate.host)
 
 ExchangeRate is a free API for current and historical foreign exchange rates published by the European Central Bank.
 
