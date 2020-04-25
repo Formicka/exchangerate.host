@@ -48,8 +48,8 @@
                                             <span class="shape-2"></span>
                                         </div>
                                         <div class="counter-content media-body">
-                                            <span class="counter-count"><span class="counter">50</span>ms</span>
-                                            <p class="text">average response time</p>
+                                            <span class="counter-count"><span class="counter">99</span>%</span>
+                                            <p class="text">average uptime</p>
                                         </div>
                                     </div> <!-- single counter -->
                                 </div>
