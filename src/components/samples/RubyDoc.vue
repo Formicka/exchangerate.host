@@ -8,8 +8,6 @@ url = "{{ baseUrl }}"
 uri = URI(url)
 response = Net::HTTP.get(uri)
 response_obj = JSON.parse(response)
-
-rate = response_obj['rates']['EUR']
         </prism>
     </div>
 

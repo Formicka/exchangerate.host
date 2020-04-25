@@ -13,10 +13,7 @@ my $response = $ua->request($request);
 my $content = $response->content;
 
 $json = JSON->new->allow_nonref;
-$decoded = $json->decode( $content );
-foreach $to_code (keys %{$decoded->{rates}}){
-   print "Exchange Rates $decoded->{rates}->{$to_code}";
-}
+$response = $json->decode( $content );
         </prism>
     </div>
 

@@ -8,8 +8,8 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function() {
-  var rates = request.response.rates;
-  console.log(rates);
+  var response = request.response;
+  console.log(response);
 }
         </prism>
     </div>

@@ -7,7 +7,7 @@ if(false !== $response_json) {
     try {
         $response = json_decode($response_json);
         if($response->success === true) {
-            $responseRates = $response->rates;
+            var_dump($response);
         }
     } catch(Exception $e) {
         // Handle JSON parse error...
