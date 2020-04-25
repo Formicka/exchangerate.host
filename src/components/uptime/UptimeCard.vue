@@ -15,10 +15,14 @@
         ></div>
       </div>
       <div class="p-4 bg-white">
-        <div class="font-bold">{{ monitor.friendly_name || '&nbsp;' }}</div>
-        <div class="text-gray-500 text-sm">{{ monitor.url || '&nbsp;' }}</div>
+        
         <div class="my-2 flex">
-          <div class="w-1/3">
+          <div class="w-full">
+            <div class="font-bold">{{ monitor.friendly_name || '&nbsp;' }}</div>
+            <div class="text-gray-500 text-sm">{{ monitor.url || '&nbsp;' }}</div>
+          </div>
+
+          <div class="w-1/6">
             <div class="uppercase text-sm">Uptime</div>
             <div class="font-bold text-xl" v-if="monitor.custom_uptime_ratio">
               {{ Math.round(monitor.custom_uptime_ratio * 100) / 100 }}
@@ -26,7 +30,8 @@
             </div>
             <div class="font-bold text-xl" v-else>&nbsp;</div>
           </div>
-          <div class="w-2/3 text-right">
+
+          <div class="w-2/3 text-right" v-if="false">
             <div class="uppercase text-sm">Av Response</div>
             <div class="font-bold text-xl" v-if="monitor.average_response_time">
               {{ Math.round(monitor.average_response_time * 100) / 100 }}
