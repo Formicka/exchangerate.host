@@ -7,7 +7,7 @@ url = '{{ baseUrl }}'
 response = requests.get(url)
 data = response.json()
 
-print data
+print(data)
         </prism>
     </div>
 
