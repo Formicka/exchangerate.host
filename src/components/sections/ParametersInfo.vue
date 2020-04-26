@@ -54,6 +54,15 @@
         <code>places=2</code>
       </td>
     </tr>
+    <tr v-show="format">
+      <td>format</td>
+      <td>
+        [optional] If respones success=true then you can format output to XML, CSV or TSV.
+        <br />
+        <small>example:</small>
+        <code>format=tsv</code>
+      </td>
+    </tr>
   </table>
 </template>
 
@@ -81,6 +90,10 @@ export default {
         type: Boolean,
         default: true
     },
+    format: {
+        type: Boolean,
+        default: true
+    }
   }
 };
 </script>
