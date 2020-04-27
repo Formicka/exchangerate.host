@@ -104,7 +104,7 @@ export default {
         }
     },
     data: function() {    
-        const hostname = 'https://api-v1.exchangerate.host/'; 
+        const hostname = 'https://api.exchangerate.host/'; 
         return {
             hostname: hostname,
             baseUrl: hostname + 'latest',
