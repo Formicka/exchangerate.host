@@ -25,7 +25,7 @@
                                     <li><a href="#our-services">Services</a></li>
                                     <li><a href="#faq">FAQ</a></li>
                                     <li><a href="#docs">API documentation</a></li>
-                                    <li><a href="https://github.com/arzzen/exchangerate.host">Github.com</a></li>
+                                    <li><a href="https://github.com/arzzen/exchangerate.host">Github repository</a></li>
                                     
                                     <!--
                                     <li><a href="#">Terms of Service</a></li>
