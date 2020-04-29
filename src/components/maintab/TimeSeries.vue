@@ -45,7 +45,7 @@
             </ul>
 
             <div role="tabpanel" class="tab-pane active" id="js">
-              <component v-bind:is="docsTabComponent" v-bind:baseUrl="baseUrl" class="tab-content"></component>
+              <component v-bind:is="docsTabComponent" v-bind:baseUrl="baseUrl" v-bind:baseUrlXml="baseUrlXml" class="tab-content"></component>
             </div>
           </div>
         </div>
@@ -66,6 +66,8 @@ import PerlDoc from "@/components/samples/PerlDoc.vue";
 import ObjectivecDoc from "@/components/samples/ObjectivecDoc.vue";
 import CurlDoc from "@/components/samples/CurlDoc.vue";
 import GoDoc from "@/components/samples/GoDoc.vue";
+import ExcelFormulaDoc from "@/components/samples/ExcelFormulaDoc.vue";
+import GoogleSpreadsheetDoc from "@/components/samples/GoogleSpreadsheetDoc.vue";
 
 Vue.component("tab-javascript", JavascriptDoc);
 Vue.component("tab-php", PhpDoc);
@@ -76,6 +78,8 @@ Vue.component("tab-perl", PerlDoc);
 Vue.component("tab-objectivec", ObjectivecDoc);
 Vue.component("tab-go", GoDoc);
 Vue.component("tab-curl", CurlDoc);
+Vue.component("tab-excelformulas", ExcelFormulaDoc);
+Vue.component("tab-googlespreadsheet", GoogleSpreadsheetDoc);
 
 export default {
   name: "TimeSeries",
@@ -106,12 +110,15 @@ export default {
         "Python",
         "Ruby",
         "Perl",
-        "Objective C"
+        "Objective C",
+        "Excel formulas",
+        "Google Spreadsheet"
       ]
     };
   },
   props: {
-    baseUrl: String
+    baseUrl: String,
+    baseUrlXml: String
   }
 };
 </script>

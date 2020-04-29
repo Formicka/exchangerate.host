@@ -46,7 +46,7 @@
 
                         <div class="tab-content" id="myTabContent">
                             <keep-alive>
-                            <component v-bind:is="mainTabComponent" v-bind:baseUrl="baseUrl" class="tab-content"></component>
+                            <component v-bind:is="mainTabComponent" v-bind:baseUrl="baseUrl" v-bind:baseUrlXml="baseUrlXml" class="tab-content"></component>
                             </keep-alive>
                         </div>
                     </div>
@@ -94,12 +94,13 @@ export default {
                     'maintab-supported-symbols': 'symbols',
                     'maintab-fluctuation-data': 'fluctuation?start_date=2020-01-01&end_date=2020-01-04',
                     'maintab-time-series-data': 'timeseries?start_date=2020-01-01&end_date=2020-01-04',
-                    'maintab-historical-rates': '[YYYY-MM-DD]',
+                    'maintab-historical-rates': '2020-04-04',
                     'maintab-convert-currency': 'convert?from=USD&to=EUR',
                     'maintab-latest-rates': 'latest'
                 };
 
                 this.baseUrl = this.hostname + map[value];
+                this.baseUrlXml = this.hostname + map[value] + (map[value].indexOf('?') !== -1 ? '&' : '?') + 'format=xml';
             }
         }
     },
@@ -108,6 +109,7 @@ export default {
         return {
             hostname: hostname,
             baseUrl: hostname + 'latest',
+            baseUrlXml: hostname + 'latest?format=xml',
             currentTab: "javascript",
             tabs: [
                 "Javascript", 
@@ -118,7 +120,7 @@ export default {
                 "Python", 
                 "Ruby", 
                 "Perl", 
-                "Objective C"
+                "Objective C",
             ],
             mainTabs: [
                 "Latest rates", 

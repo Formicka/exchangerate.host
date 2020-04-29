@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import StatusPage from "../views/StatusPage.vue";
+import SupportUsPage from "../views/SupportUsPage.vue";
 import VueHead from 'vue-head';
 
 Vue.use(VueHead, {
@@ -20,6 +21,11 @@ const routes = [
         path: "/status",
         name: "StatusPage",
         component: StatusPage
+    },
+    {
+        path: "/support-us",
+        name: "SupportUsPage",
+        component: SupportUsPage
     },
     {
         path: '*',

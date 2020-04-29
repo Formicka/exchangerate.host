@@ -57,7 +57,7 @@
     <tr v-show="format">
       <td>format</td>
       <td>
-        [optional] If respone success=true then you can format output to XML, CSV or TSV.
+        [optional] If respone success, then you can format output to XML, CSV or TSV.
         <br />
         <small>example:</small>
         <code>format=tsv</code>

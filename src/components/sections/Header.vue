@@ -27,6 +27,9 @@
                                     <li class="nav-item">
                                         <router-link to="/status">Status</router-link>
                                     </li>
+                                    <li class="nav-item">
+                                        <router-link to="/support-us">Support us</router-link>
+                                    </li>
                                 </ul>
                             </div> 
 
