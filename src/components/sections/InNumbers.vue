@@ -36,7 +36,7 @@
                                             <span class="shape-2"></span>
                                         </div>
                                         <div class="counter-content media-body">
-                                            <span class="counter-count"><span class="counter">19</span> years</span>
+                                            <span class="counter-count"><span class="counter">21</span> years</span>
                                             <p class="text">of historical data</p>
                                         </div>
                                     </div> <!-- single counter -->
