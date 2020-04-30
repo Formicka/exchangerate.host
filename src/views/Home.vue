@@ -40,6 +40,8 @@
 
     <Docs></Docs>
 
+    <Testimonial></Testimonial>
+
     <Faq></Faq>
 
     <Footer></Footer>
@@ -52,6 +54,7 @@ import Faq from "@/components/sections/Faq.vue";
 import Services from "@/components/sections/Services.vue";
 import Footer from "@/components/sections/Footer.vue";
 import InNumbers from "@/components/sections/InNumbers.vue";
+import Testimonial from "@/components/sections/Testimonial.vue";
 
 export default {
   name: "Home",
@@ -60,7 +63,8 @@ export default {
     Faq,
     Services,
     InNumbers,
-    Docs
+    Docs,
+    Testimonial
   },
   data: function() {
     return {
