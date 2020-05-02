@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import StatusPage from "../views/StatusPage.vue";
 import SupportUsPage from "../views/SupportUsPage.vue";
+import TermsPage from "../views/TermsPage.vue";
 import VueHead from 'vue-head';
 
 Vue.use(VueHead, {
@@ -21,6 +22,11 @@ const routes = [
         path: "/status",
         name: "StatusPage",
         component: StatusPage
+    },
+    {
+        path: "/terms",
+        name: "TermsPage",
+        component: TermsPage
     },
     {
         path: "/support-us",

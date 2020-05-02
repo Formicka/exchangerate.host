@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="footer-widget pt-30 pb-70">
                     <div class="row">
-                        <div class="col-lg-4 col-sm-6 order-sm-1 order-lg-1">
+                        <div class="col-lg-3 col-sm-6 order-sm-1 order-lg-1">
                             <div class="footer-about pt-10">
                                 <a class="navbar-brand" href="/">
                                     <strong>exchangerate<span class="dot">.</span>host</strong>
@@ -16,27 +16,34 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-sm-6 order-sm-2 order-lg-4">
+                        <div class="col-lg-3 col-sm-6 order-sm-2 order-lg-3">
                             <div class="footer-link pt-10">
                                 <div class="footer-title">
                                     <h5 class="title">About Us</h5>
                                 </div>
                                 <ul>
-                                    <li><a href="#our-services">Services</a></li>
-                                    <li><a href="#faq">FAQ</a></li>
-                                    <li><a href="#docs">API documentation</a></li>
+                                    <li><router-link to="/#our-services">Services</router-link></li>
+                                    <li><router-link to="/#faq">FAQ</router-link></li>
+                                    <li><router-link to="/#docs">API documentation</router-link></li>
                                     <li><a href="https://github.com/arzzen/exchangerate.host">Github repository</a></li>
-                                    
-                                    <!--
-                                    <li><a href="#">Terms of Service</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Cookie Policy</a></li>
-                                    -->
                                 </ul>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-sm-6 order-sm-2 order-lg-4">
+                        <div class="col-lg-3 col-sm-6 order-sm-2 order-lg-3">
+                            <div class="footer-link pt-10">
+                                <div class="footer-title">
+                                    <h5 class="title">General</h5>
+                                </div>
+                                <ul>
+                                    <li><router-link to="/terms#top">Terms of Service</router-link></li>
+                                    <li><router-link to="/terms#privacy-policy">Privacy Policy</router-link></li>
+                                    <li><router-link to="/terms#cookie-policy">Cookie Policy</router-link></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 order-sm-2 order-lg-3">
                             <div class="footer-contact pt-10">
                                 <div class="footer-title">
                                     <h5 class="title">Contact Info</h5>
