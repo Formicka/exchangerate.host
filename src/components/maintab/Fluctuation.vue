@@ -19,11 +19,11 @@
         <ParametersInfo>
           <tr>
             <td>start_date</td>
-            <td>[required] The start date of your preferred fluctuation timeframe.</td>
+            <td>[<span class="text-danger">required</span>] The start date of your preferred fluctuation timeframe.</td>
           </tr>
           <tr>
             <td>end_date</td>
-            <td>[required] The end date of your preferred fluctuation timeframe.</td>
+            <td>[<span class="text-danger">required</span>] The end date of your preferred fluctuation timeframe.</td>
           </tr>
         </ParametersInfo>
       </div>

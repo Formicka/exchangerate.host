@@ -17,11 +17,11 @@
         <ParametersInfo>
           <tr>
             <td>from</td>
-            <td>[required] The three-letter currency code of the currency you would like to convert from.</td>
+            <td>[<span class="text-danger">required</span>] The three-letter currency code of the currency you would like to convert from.</td>
           </tr>
           <tr>
             <td>to</td>
-            <td>[required] The three-letter currency code of the currency you would like to convert to.</td>
+            <td>[<span class="text-danger">required</span>] The three-letter currency code of the currency you would like to convert to.</td>
           </tr>
           <tr>
             <td>date</td>

@@ -63,6 +63,15 @@
         <code>format=tsv</code>
       </td>
     </tr>
+    <tr v-show="source">
+      <td>source</td>
+      <td>
+        [optional] You can switch source data between (default) forex or bank view. List of banks: ECB (next soon).
+        <br />
+        <small>example:</small>
+        <code>source=ecb</code>
+      </td>
+    </tr>
   </table>
 </template>
 
@@ -91,6 +100,10 @@ export default {
         default: true
     },
     format: {
+        type: Boolean,
+        default: true
+    },
+    source: {
         type: Boolean,
         default: true
     }
