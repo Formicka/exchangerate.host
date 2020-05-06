@@ -66,7 +66,7 @@
     <tr v-show="source">
       <td>source</td>
       <td>
-        [optional] You can switch source data between (default) forex or bank view. List of banks: ECB (next soon).
+        [optional] You can switch source data between (default) forex or bank view. <a href="https://api.exchangerate.host/sources">List of banks endpoint &nearr;</a>.
         <br />
         <small>example:</small>
         <code>source=ecb</code>
