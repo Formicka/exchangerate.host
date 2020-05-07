@@ -6,6 +6,10 @@ A public instance of the API lives at [https://api.exchangerate.host](https://ap
 
 Rates are updated around midnight CET every working day.
 
+## Community libraries
+
+- golang [asvvvad/exchange](https://github.com/asvvvad/exchange)
+
 
 ## Usage
 
