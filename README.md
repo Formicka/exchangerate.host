@@ -1,10 +1,10 @@
-## [exchangerate.host](https://exchangerate.host)
+## [Exchangerate.host](https://exchangerate.host)
 
 ExchangeRate is a free API for current and historical foreign exchange rates published by the European Central Bank.
 
 A public instance of the API lives at [https://api.exchangerate.host](https://api.exchangerate.host).
 
-Rates are updated around midnight CET every working day.
+Rates are updated around midnight UTC every working day.
 
 ## Community libraries
 
