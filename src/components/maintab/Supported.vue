@@ -15,7 +15,7 @@
           class="text"
         >API comes with a constantly updated endpoint returning all available currencies. To access this list, make a request to the API's symbols endpoint.</p>
 
-        <ParametersInfo v-bind:base="false" v-bind:symbols="false" v-bind:amount="false" v-bind:places="false"></ParametersInfo>
+        <ParametersInfo v-bind:base="false" v-bind:source="false" v-bind:symbols="false" v-bind:amount="false" v-bind:places="false"></ParametersInfo>
       </div>
       <div class="col-lg-8">
         <div class="our-services-content mt-45">

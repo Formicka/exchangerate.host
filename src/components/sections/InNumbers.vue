@@ -6,7 +6,7 @@
                     <div class="about-title text-center" >
                         <h6 class="welcome">Let the numbers talk</h6>
                         <h3 class="title">Exchange rates API is a <span>free service </span> for current and historical
-                            foreign exchange rates.</h3>
+                            foreign exchange rates & crypto exchange rates.</h3>
                     </div>
                 </div>
             </div> <!-- row -->
@@ -17,38 +17,50 @@
 
                         <div class="about-counter">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="single-counter counter-color-1 mt-30 d-flex">
                                         <div class="counter-shape">
                                             <span class="shape-1"></span>
                                             <span class="shape-2"></span>
                                         </div>
                                         <div class="counter-content media-body">
-                                            <span class="counter-count"><span class="counter">~170</span></span>
-                                            <p class="text">currencies</p>
+                                            <span class="counter-count"><span class="counter"><small>~</small>170</span></span>
+                                            <p class="text">forex currencies</p>
                                         </div>
                                     </div> <!-- single counter -->
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
+                                    <div class="single-counter counter-color-1 mt-30 d-flex">
+                                        <div class="counter-shape">
+                                            <span class="shape-1"></span>
+                                            <span class="shape-2"></span>
+                                        </div>
+                                        <div class="counter-content media-body">
+                                            <span class="counter-count"><span class="counter">1000<small>+</small></span></span>
+                                            <p class="text">crypto currencies</p>
+                                        </div>
+                                    </div> <!-- single counter -->
+                                </div>
+                                <div class="col-sm-3">
                                     <div class="single-counter counter-color-2 mt-30 d-flex">
                                         <div class="counter-shape">
                                             <span class="shape-1"></span>
                                             <span class="shape-2"></span>
                                         </div>
                                         <div class="counter-content media-body">
-                                            <span class="counter-count"><span class="counter">20</span> years</span>
-                                            <p class="text">of historical data</p>
+                                            <span class="counter-count"><span class="counter">20</span></span>
+                                            <p class="text">years of historical data</p>
                                         </div>
                                     </div> <!-- single counter -->
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="single-counter counter-color-3 mt-30 d-flex">
                                         <div class="counter-shape">
                                             <span class="shape-1"></span>
                                             <span class="shape-2"></span>
                                         </div>
                                         <div class="counter-content media-body">
-                                            <span class="counter-count"><span class="counter">99,99</span>%</span>
+                                            <span class="counter-count"><span class="counter">99.99</span><small>%</small></span>
                                             <p class="text">average uptime</p>
                                         </div>
                                     </div> <!-- single counter -->

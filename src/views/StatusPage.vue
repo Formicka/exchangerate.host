@@ -46,9 +46,9 @@ export default {
   },
   data: function() {
     return {
-      title: "Status page - Foreign exchange rates API with currency conversion for Free",
+      title: "Status page - Foreign & crypto exchange rates API with currency conversion for Free",
       description:
-        "Exchange rates API is a free service for current and historical foreign exchange rates published by the European Central Bank"
+        "Exchange rates API is a free service for current and historical foreign exchange rates & crypto exchange rates published by the many public sources."
     };
   },
   head: {

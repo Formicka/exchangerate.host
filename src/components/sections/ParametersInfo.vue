@@ -66,10 +66,23 @@
     <tr v-show="source">
       <td>source</td>
       <td>
-        [optional] You can switch source data between (default) forex or bank view. <a href="https://api.exchangerate.host/sources">List of banks endpoint &nearr;</a>.
-        <br />
-        <small>example:</small>
-        <code>source=ecb</code>
+        [optional] You can switch source data between (default) forex, bank view or crypto currencies.
+        <ul>
+          <li>
+            <small>
+              - example of European Central Bank source (<a
+                href="https://api.exchangerate.host/sources"
+              >list of bank sources &nearr;</a>):
+            </small>
+            <br />
+            <code>source=ecb</code>
+          </li>
+          <li>
+            <small>- example of Crypto currencies source:</small>
+            <br />
+            <code>source=crypto</code>
+          </li>
+        </ul>
       </td>
     </tr>
   </table>
@@ -80,32 +93,32 @@ export default {
   name: "ParametersInfo",
   props: {
     base: {
-        type: Boolean,
-        default: true
+      type: Boolean,
+      default: true
     },
     places: {
-        type: Boolean,
-        default: true
+      type: Boolean,
+      default: true
     },
     symbols: {
-        type: Boolean,
-        default: true
+      type: Boolean,
+      default: true
     },
     callback: {
-        type: Boolean,
-        default: true
+      type: Boolean,
+      default: true
     },
     amount: {
-        type: Boolean,
-        default: true
+      type: Boolean,
+      default: true
     },
     format: {
-        type: Boolean,
-        default: true
+      type: Boolean,
+      default: true
     },
     source: {
-        type: Boolean,
-        default: true
+      type: Boolean,
+      default: true
     }
   }
 };
