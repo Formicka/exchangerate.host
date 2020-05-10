@@ -19,9 +19,7 @@
                             <div class="blog-author d-flex align-items-center">
                                 <div class="author-content media-body">
                                     <p class="text">
-                                        Exchange rates API is a free service for current and historical foreign exchange
-                                        rates
-                                        published by the European Central Bank
+                                        Currency data delivered are sourced from financial data providers and banks, including the European Central Bank. 
                                     </p>
                                 </div>
                             </div>

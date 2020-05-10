@@ -70,15 +70,17 @@
         <ul>
           <li>
             <small>
-              - example of European Central Bank source (<a
-                href="https://api.exchangerate.host/sources"
-              >list of bank sources &nearr;</a>):
+              - example of European Central Bank source (<mark><a 
+                target="_blank" href="https://api.exchangerate.host/sources"
+              >list of bank sources &nearr;</a></mark>):
             </small>
             <br />
             <code>source=ecb</code>
           </li>
           <li>
-            <small>- example of Crypto currencies source:</small>
+            <small>- example of Crypto currencies source (<mark><a
+                 target="_blank" href="https://api.exchangerate.host/cryptocurrencies"
+              >list of crypto currencies &nearr;</a></mark>):</small>
             <br />
             <code>source=crypto</code>
           </li>

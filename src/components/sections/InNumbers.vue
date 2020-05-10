@@ -25,7 +25,7 @@
                                         </div>
                                         <div class="counter-content media-body">
                                             <span class="counter-count"><span class="counter"><small>~</small>170</span></span>
-                                            <p class="text">forex currencies</p>
+                                            <p class="text"><a target="_blank" href="https://api.exchangerate.host/symbols">forex currencies &nearr;</a></p>
                                         </div>
                                     </div> <!-- single counter -->
                                 </div>
@@ -36,8 +36,8 @@
                                             <span class="shape-2"></span>
                                         </div>
                                         <div class="counter-content media-body">
-                                            <span class="counter-count"><span class="counter">1000<small>+</small></span></span>
-                                            <p class="text">crypto currencies</p>
+                                            <span class="counter-count"><span class="counter">6000<small>+</small></span></span>
+                                            <p class="text"><a target="_blank" href="https://api.exchangerate.host/cryptocurrencies">crypto currencies &nearr;</a></p>
                                         </div>
                                     </div> <!-- single counter -->
                                 </div>

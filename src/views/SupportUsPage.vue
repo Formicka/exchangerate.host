@@ -33,9 +33,9 @@
               <p class="text">
                 We tried to put as much love into these as in our open source work—and we hope it shows.
                 <br />You can help with our open source efforts in many ways:
-                <a
-                  href="https://github.com/arzzen/exchangerate.host/issues"
-                >by resolving open issues</a>.
+                <mark><a
+                 target="_blank" href="https://github.com/arzzen/exchangerate.host/issues"
+                >by resolving open issues &nearr;</a></mark>.
               </p>
 
               <h4 class="details-title">Easiest way</h4>
@@ -45,9 +45,9 @@
                   href="https://github.com/sponsors/arzzen"
                 >support us financially</a> is by buying or subscribing to one of our tiers.
                 <br />If you'd like to make a donation to keep us going, support us via
-                <a
-                  href="https://github.com/sponsors/arzzen"
-                >Github Sponsors</a>.
+                <mark><a 
+                  target="_blank" href="https://github.com/sponsors/arzzen"
+                >Github Sponsors &nearr;</a></mark>.
               </p>
 
               <!--

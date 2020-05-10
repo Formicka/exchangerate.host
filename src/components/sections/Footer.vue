@@ -10,8 +10,7 @@
                                     <strong>exchangerate<span class="dot">.</span>host</strong>
                                 </a>
                                 <p class="text">
-                                    Exchange rates API is a free service for current and historical foreign exchange rates
-                                    published by the European Central Bank
+                                    Exchange rates API is a free service for current and historical foreign exchange rates & crypto currencies rates.
                                 </p>
                             </div>
                         </div>
@@ -25,7 +24,7 @@
                                     <li><router-link to="/#our-services">Services</router-link></li>
                                     <li><router-link to="/#faq">FAQ</router-link></li>
                                     <li><router-link to="/#docs">API documentation</router-link></li>
-                                    <li><a href="https://github.com/arzzen/exchangerate.host">Github repository</a></li>
+                                    <li><a target="_blank" href="https://github.com/arzzen/exchangerate.host">Github repository &nearr;</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -48,9 +47,9 @@
                                 <div class="footer-title">
                                     <h5 class="title">Contact Info</h5>
                                 </div>
-                                <div class="contact pt-10">
+                                <div class="contact">
                                     <p class="text">Tulská 3240/33, Žilina 01008<br> Slovak Republic</p>
-                                    <p class="text"><a href="https://github.com/arzzen/exchangerate.host/issues">Submit a Question or Bug</a></p>
+                                    <p class="text"><mark><a target="_blank" href="https://github.com/arzzen/exchangerate.host/issues">Submit a Question or Bug  &nearr;</a></mark></p>
 
                                     <!--
                                     <ul class="social mt-40">
@@ -66,7 +65,7 @@
                     </div>
                 </div>
                 <div class="footer-copyright text-center">
-                    <small class="">© 2020 All Rights Reserved.</small>
+                    <small class="">© 2020 Exchangerate.host, All Rights Reserved.</small>
                 </div>
             </div>
         </footer>
