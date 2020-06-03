@@ -9,7 +9,7 @@ Rates are updated around midnight UTC every working day.
 ## Community libraries
 
 - golang [asvvvad/exchange](https://github.com/asvvvad/exchange)
-
+- elixir [81dr/ex_changerate](https://github.com/81dr/ex_changerate)
 
 ## Usage
 
