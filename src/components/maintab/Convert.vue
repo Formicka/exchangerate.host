@@ -73,6 +73,8 @@ import CurlDoc from "@/components/samples/CurlDoc.vue";
 import GoDoc from "@/components/samples/GoDoc.vue";
 import ExcelFormulaDoc from "@/components/samples/ExcelFormulaDoc.vue";
 import GoogleSpreadsheetDoc from "@/components/samples/GoogleSpreadsheetDoc.vue";
+import OracleContract from "@/components/samples/OracleContract.vue";
+import RDoc from "@/components/samples/RDoc.vue";
 
 Vue.component("tab-javascript", JavascriptDoc);
 Vue.component("tab-php", PhpDoc);
@@ -85,6 +87,8 @@ Vue.component("tab-go", GoDoc);
 Vue.component("tab-curl", CurlDoc);
 Vue.component("tab-excelformulas", ExcelFormulaDoc);
 Vue.component("tab-googlespreadsheet", GoogleSpreadsheetDoc);
+Vue.component("tab-oraclecontract", OracleContract);
+Vue.component("tab-r", RDoc);
 
 export default {
   name: "Convert",
@@ -115,9 +119,11 @@ export default {
         "Python",
         "Ruby",
         "Perl",
+        "R",
         "Objective C",
         "Excel formulas",
-        "Google Spreadsheet"
+        "Google Spreadsheet",
+        "Oracle Contract"
       ]
     };
   },
