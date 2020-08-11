@@ -11,6 +11,7 @@ Rates are updated around midnight UTC every working day.
 - golang [asvvvad/exchange](https://github.com/asvvvad/exchange)
 - elixir [81dr/ex_changerate](https://github.com/81dr/ex_changerate)
 - vue [dvnikolaev/vue-exchange-rates](https://github.com/dvnikolaev/vue-exchange-rates)
+- F# [blowin/CurrencyExchange](https://github.com/blowin/CurrencyExchange)
 - forex rate web app [zayyarlin/d3viz](https://github.com/zayyarlin/d3viz), [forexrate.web.app](https://forexrate.web.app/)
 
 ## Usage
