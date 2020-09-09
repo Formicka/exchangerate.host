@@ -1,5 +1,7 @@
 ## [Exchangerate.host](https://exchangerate.host)
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X5261MF)
+
 ExchangeRate is a free API for current and historical foreign exchange rates published by the European Central Bank.
 
 A public instance of the API lives at [https://api.exchangerate.host](https://api.exchangerate.host).
