@@ -10,11 +10,12 @@ Rates are updated around midnight UTC every working day.
 
 ## Community libraries
 
-- golang [asvvvad/exchange](https://github.com/asvvvad/exchange)
-- elixir [81dr/ex_changerate](https://github.com/81dr/ex_changerate)
+- Golang [asvvvad/exchange](https://github.com/asvvvad/exchange)
+- Elixir [81dr/ex_changerate](https://github.com/81dr/ex_changerate)
 - R [stevecondylios/priceR](https://github.com/stevecondylios/priceR)
-- vue [dvnikolaev/vue-exchange-rates](https://github.com/dvnikolaev/vue-exchange-rates)
+- Vue [dvnikolaev/vue-exchange-rates](https://github.com/dvnikolaev/vue-exchange-rates)
 - F# [blowin/CurrencyExchange](https://github.com/blowin/CurrencyExchange)
+- PHP Laravel package [amrshawky/laravel-currency](https://github.com/amrshawky/laravel-currency)
 - forex rate web app [zayyarlin/d3viz](https://github.com/zayyarlin/d3viz), [forexrate.web.app](https://forexrate.web.app/)
 
 ## Usage
