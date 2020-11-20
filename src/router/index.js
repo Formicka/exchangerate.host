@@ -34,6 +34,11 @@ const routes = [
         component: SupportUsPage
     },
     {
+        path: "/donate",
+        name: "SupportUsPage",
+        component: SupportUsPage
+    },
+    {
         path: '*',
         component: Home
     },
@@ -43,12 +48,12 @@ const router = new VueRouter({
     mode: "hash",
     base: process.env.BASE_URL,
     routes,
-    scrollBehavior: function (to) { 
+    scrollBehavior: function (to) {
         if (to.hash) {
-            return { 
-                selector: to.hash 
-            } 
-        } 
+            return {
+                selector: to.hash
+            }
+        }
     }
 });
 
