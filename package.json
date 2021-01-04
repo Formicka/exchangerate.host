@@ -18,6 +18,7 @@
         "moment": "^2.24.0",
         "prismjs": "^1.21.0",
         "underscore": "^1.7.0",
+        "vercel": "^21.0.1",
         "vue": "^2.6.10",
         "vue-head": "^2.2.0",
         "vue-moment": "^4.1.0",
