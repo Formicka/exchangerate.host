@@ -93,6 +93,11 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-6 col-md-6 col-sm-8">
+          <div class="single-blog mt-30" style="visibility: visible">
+            <div class="blog-content"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
