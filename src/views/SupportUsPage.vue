@@ -45,12 +45,14 @@
             <center>
               <h4 class="details-title">If you'd prefer Bitcoin</h4>
               <div class="text">
-                <code>bc1q0x8scvyhkl67rwaqwara6025vmmzqsf8tuyc9g</code>
-                <img
-                  title="bitcoin:bc1q0x8scvyhkl67rwaqwara6025vmmzqsf8tuyc9g"
-                  src="@/assets/images/btc_qrcode.jpg"
-                  alt="bc1q0x8scvyhkl67rwaqwara6025vmmzqsf8tuyc9g"
-                />
+                <iframe
+                  name="Stack"
+                  src="https://pay.exchangerate.host/widget?amount=0.0004"
+                  style="height: 540px; width: 100%"
+                  frameborder="0"
+                  scrolling="no"
+                  id="iframe"
+                ></iframe>
               </div>
             </center>
           </div>
