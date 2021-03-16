@@ -45,14 +45,9 @@
             <center>
               <h4 class="details-title">If you'd prefer Bitcoin</h4>
               <div class="text">
-                <iframe
-                  name="Stack"
-                  src="https://pay.exchangerate.host/widget?amount=0.0004"
-                  style="height: 540px; width: 100%"
-                  frameborder="0"
-                  scrolling="no"
-                  id="iframe"
-                ></iframe>
+                <a href="https://nowpayments.io/donation?api_key=SMHBNKR-MYRMBFK-PHXAAHK-3GP6TZA" target="_blank">
+                  <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button by NOWPayments">
+                </a>
               </div>
             </center>
           </div>
