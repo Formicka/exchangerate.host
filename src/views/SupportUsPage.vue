@@ -13,7 +13,7 @@
             <div class="page-banner-content">
               <h3 class="page-title">
                 <b> Want to show your support? </b><br />
-                Donate via <span>Bitcoin</span> or <span>buy me coffee</span>
+                Donate via <span>crypto</span> or <span>buy me coffee</span>
               </h3>
             </div>
           </div>
@@ -43,7 +43,7 @@
           </div>
           <div class="col-lg-6 blog-details-content">
             <center>
-              <h4 class="details-title">If you'd prefer Bitcoin</h4>
+              <h4 class="details-title">If you'd prefer Crypto</h4>
               <div class="text">
                 <a href="https://nowpayments.io/donation?api_key=SMHBNKR-MYRMBFK-PHXAAHK-3GP6TZA" target="_blank">
                   <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button by NOWPayments">
