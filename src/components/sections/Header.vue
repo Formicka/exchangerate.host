@@ -34,9 +34,6 @@
                     <router-link to="/#faq">FAQ</router-link>
                   </li>
                   <li class="nav-item">
-                    <router-link to="/status">Status</router-link>
-                  </li>
-                  <li class="nav-item">
                     <router-link to="/donate"
                       >Donate <i class="fa fa-bitcoin"></i>
                       <i class="fa fa-coffee ml-1"></i
