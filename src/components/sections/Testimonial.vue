@@ -7,10 +7,15 @@
             class="testimonial-left-content mt-45 wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay="0.3s"
-            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeIn;"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.3s;
+              animation-name: fadeIn;
+            "
           >
             <div class="section-title">
-              <h6 class="sub-title ">Testimonials</h6>
+              <h6 class="sub-title">Testimonials</h6>
               <h4 class="title">What People Says, About Us</h4>
             </div>
             <ul class="testimonial-line">
@@ -20,10 +25,13 @@
               <li></li>
             </ul>
             <p class="text">
-              The big benefit has been clarity of purpose. We now focus on the outcomes and the breaking down of the silos.
+              The big benefit has been clarity of purpose. We now focus on the
+              outcomes and the breaking down of the silos.
               <br />
-              <br />At exchangerate.host it's important to gain feedback on the service we deliver to you.
-              We can continuously relay back where progress is being made to reinforce what we are doing and where it contributes to the big picture.
+              <br />At exchangerate.host it's important to gain feedback on the
+              service we deliver to you. We can continuously relay back where
+              progress is being made to reinforce what we are doing and where it
+              contributes to the big picture.
               <br />
               <br />Just a short sample of what they say about us.
             </p>
@@ -42,15 +50,20 @@
               <div class="single-testimonial">
                 <div class="testimonial-text">
                   <p class="text">
-                    “I’m glad to see the exchangerate.host is for free, I’m going to show you how to import foreign exchange rate data into Google Sheets using this API.”
+                    “I’m glad to see the exchangerate.host is for free, I’m
+                    going to show you how to import foreign exchange rate data
+                    into Google Sheets using this API.”
                     <a
                       class="text-info"
                       href="https://apipheny.io/foreign-exchange-rates-google-sheets/?utm_source=exchangerate.host"
                       target="_blank"
-                    >read more</a>
+                      >read more</a
+                    >
                   </p>
                 </div>
-                <div class="testimonial-author d-sm-flex justify-content-between">
+                <div
+                  class="testimonial-author d-sm-flex justify-content-between"
+                >
                   <div class="author-info d-flex align-items-center">
                     <div class="author-image">
                       <img
@@ -66,7 +79,8 @@
                         <a
                           href="https://apipheny.io/?utm_source=exchangerate.host"
                           target="_blank"
-                        >Apipheny.io</a>
+                          >Apipheny.io</a
+                        >
                       </span>
                     </div>
                   </div>
@@ -102,6 +116,6 @@
 
 <script>
 export default {
-  name: "Testimonial"
+  name: "Testimonial",
 };
 </script>

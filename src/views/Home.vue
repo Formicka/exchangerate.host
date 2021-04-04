@@ -3,7 +3,10 @@
     <div
       id="home"
       class="header-hero bg_cover d-lg-flex align-items-center"
-      v-bind:style="{ backgroundImage: 'url(' + require('@/assets/images/header-hero.jpg') + ')' }"
+      v-bind:style="{
+        backgroundImage:
+          'url(' + require('@/assets/images/header-hero.jpg') + ')',
+      }"
     >
       <div class="container">
         <div class="row">
@@ -11,14 +14,14 @@
             <div class="header-hero-content">
               <h1 class="hero-title">
                 Free
-                <b>foreign</b> exchange
-                <br />& <b>crypto</b> rates
+                <b>foreign</b> exchange <br />& <b>crypto</b> rates
                 <span>API</span>
               </h1>
 
               <p class="text">
-                Exchange rates API is a simple and lightweight free service for current and historical
-                foreign exchange rates & crypto exchange rates.
+                Exchange rates API is a simple and lightweight free service for
+                current and historical foreign exchange rates & crypto exchange
+                rates.
               </p>
               <div class="pricing-btn pt-70">
                 <a class="main-btn" href="#docs">explore the docs</a>
@@ -42,6 +45,8 @@
 
     <Testimonial></Testimonial>
 
+    <Articles></Articles>
+
     <Faq></Faq>
 
     <Footer></Footer>
@@ -55,6 +60,7 @@ import Services from "@/components/sections/Services.vue";
 import Footer from "@/components/sections/Footer.vue";
 import InNumbers from "@/components/sections/InNumbers.vue";
 import Testimonial from "@/components/sections/Testimonial.vue";
+import Articles from "@/components/sections/Articles.vue";
 
 export default {
   name: "Home",
@@ -64,21 +70,23 @@ export default {
     Services,
     InNumbers,
     Docs,
-    Testimonial
+    Testimonial,
+    Articles,
   },
-  data: function() {
+  data: function () {
     return {
-      title: "Foreign & crypto exchange rates API with currency conversion for Free",
+      title:
+        "Foreign & crypto exchange rates API with currency conversion for Free",
       description:
-        "Exchange rates API is a free service for current and historical foreign exchange rates & crypto exchange rates published by the many public sources."
+        "Exchange rates API is a free service for current and historical foreign exchange rates & crypto exchange rates published by the many public sources.",
     };
   },
   head: {
-    title: function() {
+    title: function () {
       return {
-        inner: this.title
+        inner: this.title,
       };
-    }
-  }
+    },
+  },
 };
 </script>

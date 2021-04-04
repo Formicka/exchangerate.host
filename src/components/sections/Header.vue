@@ -30,8 +30,15 @@
                   <li class="nav-item">
                     <router-link to="/#our-services">Services</router-link>
                   </li>
+
+                  <li class="nav-item">
+                    <router-link to="/#articles">Tutorials</router-link>
+                  </li>
                   <li class="nav-item">
                     <router-link to="/#faq">FAQ</router-link>
+                  </li>
+                  <li class="nav-item">
+                    <router-link to="/status">Status</router-link>
                   </li>
                   <li class="nav-item">
                     <router-link to="/donate"

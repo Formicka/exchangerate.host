@@ -1,6 +1,10 @@
 <template>
   <div class="flex flex-wrap -m-3">
-    <UptimeCard v-for="monitor in monitors" :key="monitor.id" :monitor="monitor"></UptimeCard>
+    <UptimeCard
+      v-for="monitor in monitors"
+      :key="monitor.id"
+      :monitor="monitor"
+    ></UptimeCard>
   </div>
 </template>
 
@@ -14,17 +18,15 @@ Vue.use(VueTailwind);
 
 export default {
   components: {
-    UptimeCard
+    UptimeCard,
   },
   data() {
     return {
-      apiKeys: ["ur909924-c77c933d06d241f11ebb9bab"],
+      apiKeys: ["ur909924-1b12644aabf15ded3d8c0007"],
       monitors: [],
       uptime_ratio: "30",
-      response_times_start_date: Vue.moment()
-        .subtract(7, "days")
-        .unix(),
-      response_times_end_date: Vue.moment().unix()
+      response_times_start_date: Vue.moment().subtract(7, "days").unix(),
+      response_times_end_date: Vue.moment().unix(),
     };
   },
   mounted() {
@@ -33,7 +35,7 @@ export default {
   },
   methods: {
     refresh() {
-      this.apiKeys.forEach(apiKey => {
+      this.apiKeys.forEach((apiKey) => {
         axios
           .post("https://api.uptimerobot.com/v2/getMonitors", {
             api_key: apiKey,
@@ -41,14 +43,14 @@ export default {
             response_times: "1",
             response_times_start_date: this.response_times_start_date,
             response_times_end_date: this.response_times_end_date,
-            format: "json"
+            format: "json",
           })
-          .then(response => {
+          .then((response) => {
             this.monitors = response.data.monitors;
           });
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
