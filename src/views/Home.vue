@@ -14,14 +14,15 @@
             <div class="header-hero-content">
               <h1 class="hero-title">
                 Free
-                <b>foreign</b> exchange <br />& <b>crypto</b> rates
-                <span>API</span>
+                <b>foreign</b> exchange, <br />
+                <b>crypto</b> rates & <br />EU VAT Rates <span>API</span>
               </h1>
 
               <p class="text">
                 Exchange rates API is a simple and lightweight free service for
                 current and historical foreign exchange rates & crypto exchange
-                rates.
+                rates. Reliable and up-to-date EU VAT rates, sourced directly
+                from the European Commission's databases.
               </p>
               <div class="pricing-btn pt-70">
                 <a class="main-btn" href="#docs">explore the docs</a>

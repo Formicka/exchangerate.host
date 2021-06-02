@@ -10,7 +10,8 @@
     <tr v-show="base">
       <td>base</td>
       <td>
-        [optional] Changing base currency. Enter the three-letter currency code of your preferred base currency.
+        [optional] Changing base currency. Enter the three-letter currency code
+        of your preferred base currency.
         <br />
         <small>example:</small>
         <code>base=USD</code>
@@ -19,10 +20,12 @@
     <tr v-show="symbols">
       <td>symbols</td>
       <td>
-        [optional] Enter a list of comma-separated currency codes to limit output currencies.
+        [optional] Enter a list of comma-separated currency codes to limit
+        output currencies.
         <br />
         <small>example:</small>
-        <code>symbols=USD,EUR,CZK</code>
+        <code v-if="symbolsCustom">{{ symbolsCustom }}</code>
+        <code v-else>symbols=USD,EUR,CZK</code>
       </td>
     </tr>
     <tr v-show="amount">
@@ -37,9 +40,10 @@
     <tr v-show="callback">
       <td>callback</td>
       <td>
-        [optional] API comes with support for JSONP Callbacks. This feature enables you to specify a
-        function name, pass it into the API's callback GET parameter and cause the API to return
-        your requested API response wrapped inside that function.
+        [optional] API comes with support for JSONP Callbacks. This feature
+        enables you to specify a function name, pass it into the API's callback
+        GET parameter and cause the API to return your requested API response
+        wrapped inside that function.
         <br />
         <small>example:</small>
         <code>callback=functionName</code>
@@ -57,7 +61,8 @@
     <tr v-show="format">
       <td>format</td>
       <td>
-        [optional] If respone success, then you can format output to XML, CSV or TSV.
+        [optional] If respone success, then you can format output to XML, CSV or
+        TSV.
         <br />
         <small>example:</small>
         <code>format=tsv</code>
@@ -66,21 +71,30 @@
     <tr v-show="source">
       <td>source</td>
       <td>
-        [optional] You can switch source data between (default) forex, bank view or crypto currencies.
+        [optional] You can switch source data between (default) forex, bank view
+        or crypto currencies.
         <ul>
           <li>
             <small>
-              - example of European Central Bank source (<mark><a 
-                target="_blank" href="https://api.exchangerate.host/sources"
-              >list of bank sources &nearr;</a></mark>):
+              - example of European Central Bank source (<mark
+                ><a target="_blank" href="https://api.exchangerate.host/sources"
+                  >list of bank sources &nearr;</a
+                ></mark
+              >):
             </small>
             <br />
             <code>source=ecb</code>
           </li>
           <li>
-            <small>- example of Crypto currencies source (<mark><a
-                 target="_blank" href="https://api.exchangerate.host/cryptocurrencies"
-              >list of crypto currencies &nearr;</a></mark>):</small>
+            <small
+              >- example of Crypto currencies source (<mark
+                ><a
+                  target="_blank"
+                  href="https://api.exchangerate.host/cryptocurrencies"
+                  >list of crypto currencies &nearr;</a
+                ></mark
+              >):</small
+            >
             <br />
             <code>source=crypto</code>
           </li>
@@ -96,32 +110,36 @@ export default {
   props: {
     base: {
       type: Boolean,
-      default: true
+      default: true,
     },
     places: {
       type: Boolean,
-      default: true
+      default: true,
     },
     symbols: {
       type: Boolean,
-      default: true
+      default: true,
+    },
+    symbolsCustom: {
+      type: String,
+      default: false,
     },
     callback: {
       type: Boolean,
-      default: true
+      default: true,
     },
     amount: {
       type: Boolean,
-      default: true
+      default: true,
     },
     format: {
       type: Boolean,
-      default: true
+      default: true,
     },
     source: {
       type: Boolean,
-      default: true
-    }
-  }
+      default: true,
+    },
+  },
 };
 </script>

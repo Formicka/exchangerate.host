@@ -95,7 +95,47 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-8">
           <div class="single-blog mt-30" style="visibility: visible">
-            <div class="blog-content"></div>
+            <div class="blog-content">
+              <h4 class="blog-title">Response showing old date</h4>
+              <div class="blog-author d-flex align-items-center">
+                <div class="author-content media-body">
+                  <p class="text">
+                    API requests are cached by default. You can try to add an
+                    additional parameter &v=_actual_date_ in the query, where
+                    _actual_date_ enter the day in the format for example Y-m-d
+                    (or you can add only hour value).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-8">
+          <div class="single-blog mt-30" style="visibility: visible">
+            <div class="blog-content">
+              <h4 class="blog-title">Error responses</h4>
+              <div class="blog-author d-flex align-items-center">
+                <div class="author-content media-body">
+                  <p class="text">
+                    If your query fails, the API will return false in the
+                    success parameter, also HTTP header code 404 Not Found or
+                    HTTP 521 Timeout.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-8">
+          <div class="single-blog mt-30" style="visibility: visible">
+            <div class="blog-content">
+              <h4 class="blog-title"></h4>
+              <div class="blog-author d-flex align-items-center">
+                <div class="author-content media-body">
+                  <p class="text"></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
