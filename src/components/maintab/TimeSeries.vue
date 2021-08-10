@@ -13,7 +13,7 @@
         </h3>
         <p
           class="text"
-        >Timeseries endpoint are for daily historical rates between two dates of your choice, with a maximum time frame of 365 days.</p>
+        >Timeseries endpoint are for daily historical rates between two dates of your choice, with a maximum time frame of 366 days.</p>
         <ParametersInfo>
           <tr>
             <td>start_date</td>
