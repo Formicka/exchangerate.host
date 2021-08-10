@@ -14,7 +14,7 @@
         <p class="text">
             Using the fluctuation endpoint you will be able to retrieve information about how currencies fluctuate on a day-to-day basis. 
             To use this feature, simply append a <code>start_date</code> and <code>end_date</code> and choose which currencies (symbols) you would like to query the API for. 
-            Please note that the maximum allowed timeframe is 365 days.
+            Please note that the maximum allowed timeframe is 366 days.
         </p>
         <ParametersInfo>
           <tr>
