@@ -81,3 +81,26 @@ fetch('https://api.exchangerate.host/latest')
   .then((data) => fx.rates = data.rates)
   .then(demo)
 ```
+
+### Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/exchangeratehost#backer)]
+
+[![backers](https://opencollective.com/exchangeratehost/backers.svg?width=890)](https://opencollective.com/exchangeratehost#backers)
+
+### Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/exchangeratehost#sponsor)]
+
+[![sponsor81](https://user-images.githubusercontent.com/6382002/130024560-65bb49a6-c7e9-48f9-8427-a29d8ff2a3db.png)](https://quaestor.com/?utm_source=github&utm_category=sponsor)
+[![sponsor0](https://opencollective.com/exchangeratehost/sponsor/0/avatar.svg?v=1)](https://opencollective.com/exchangeratehost/sponsor/0/website)
+[![sponsor1](https://opencollective.com/exchangeratehost/sponsor/1/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/1/website)
+[![sponsor2](https://opencollective.com/exchangeratehost/sponsor/2/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/2/website)
+[![sponsor3](https://opencollective.com/exchangeratehost/sponsor/3/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/3/website)
+[![sponsor4](https://opencollective.com/exchangeratehost/sponsor/4/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/4/website)
+[![sponsor5](https://opencollective.com/exchangeratehost/sponsor/5/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/5/website)
+[![sponsor6](https://opencollective.com/exchangeratehost/sponsor/6/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/6/website)
+[![sponsor7](https://opencollective.com/exchangeratehost/sponsor/7/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/7/website)
+[![sponsor8](https://opencollective.com/exchangeratehost/sponsor/8/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/8/website)
+[![sponsor9](https://opencollective.com/exchangeratehost/sponsor/9/avatar.svg)](https://opencollective.com/exchangeratehost/sponsor/9/website)
+
