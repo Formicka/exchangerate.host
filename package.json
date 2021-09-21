@@ -16,7 +16,7 @@
         "dateformat": "^3.0.3",
         "dayjs": "^1.8.22",
         "moment": "^2.24.0",
-        "prismjs": "^1.24.0",
+        "prismjs": "^1.25.0",
         "underscore": "^1.12.1",
         "vercel": "^21.0.1",
         "vue": "^2.6.10",
