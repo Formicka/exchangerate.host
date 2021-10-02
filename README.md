@@ -10,7 +10,7 @@ Rates are updated around midnight UTC every working day.
 
 ## Community libraries
 
-- Golang [asvvvad/exchange](https://github.com/asvvvad/exchange)
+- Golang [rehhouari/exchange](https://github.com/rehhouari/exchange)
 - Elixir [81dr/ex_changerate](https://github.com/81dr/ex_changerate)
 - R [stevecondylios/priceR](https://github.com/stevecondylios/priceR)
 - Vue [dvnikolaev/vue-exchange-rates](https://github.com/dvnikolaev/vue-exchange-rates)
