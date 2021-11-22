@@ -70,6 +70,26 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-blog mt-30">
+            <div class="blog-image"></div>
+            <div class="blog-content">
+              <h4 class="blog-title">
+                <a
+                  href="https://datafetcher.com/blog/convert-currency-in-airtable/?utm_source=exchangerate.host"
+                >
+                  Convert Currency in Airtable
+                </a>
+              </h4>
+              <div class="blog-author d-flex align-items-center">
+                <div class="media-body">
+                  <h6 class="sub-title">Published on</h6>
+                  <p class="text">datafetcher.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
