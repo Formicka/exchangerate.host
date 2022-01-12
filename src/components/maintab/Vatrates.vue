@@ -111,7 +111,7 @@ export default {
   },
   data: function () {
     return {
-      currentTab: "javascript",
+      currentTab: "JavaScript",
       tabs: [
         "JavaScript",
         "PHP",
