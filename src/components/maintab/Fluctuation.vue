@@ -109,7 +109,7 @@ export default {
     return {
       currentTab: "javascript",
       tabs: [
-        "Javascript",
+        "JavaScript",
         "PHP",
         "cURL",
         "Go",

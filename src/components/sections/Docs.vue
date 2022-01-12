@@ -132,7 +132,7 @@ export default {
       baseUrlXml: hostname + "latest?format=xml",
       currentTab: "javascript",
       tabs: [
-        "Javascript",
+        "JavaScript",
         "PHP",
         "cURL",
         "Go",
