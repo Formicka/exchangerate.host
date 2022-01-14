@@ -130,9 +130,9 @@ export default {
       hostname: hostname,
       baseUrl: hostname + "latest",
       baseUrlXml: hostname + "latest?format=xml",
-      currentTab: "javascript",
+      currentTab: "JavaScript",
       tabs: [
-        "Javascript",
+        "JavaScript",
         "PHP",
         "cURL",
         "Go",
@@ -151,7 +151,7 @@ export default {
         "Supported symbols",
         "EU VAT Rates",
       ],
-      mainCurrentTab: "latest-rates",
+      mainCurrentTab: "Latest rates",
     };
   },
 };

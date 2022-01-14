@@ -93,9 +93,9 @@ export default {
   },
   data: function() {
     return {
-      currentTab: "javascript",
+      currentTab: "JavaScript",
       tabs: [
-        "Javascript",
+        "JavaScript",
         "PHP",
         "cURL",
         "Go",
