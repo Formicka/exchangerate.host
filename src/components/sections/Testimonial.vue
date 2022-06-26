@@ -55,7 +55,7 @@
                     into Google Sheets using this API.”
                     <a
                       class="text-info"
-                      href="https://apipheny.io/foreign-exchange-rates-google-sheets/?utm_source=exchangerate.host"
+                      href="https://apipheny.io/exchange-rate-api-google/?utm_source=exchangerate.host"
                       target="_blank"
                       >read more</a
                     >
