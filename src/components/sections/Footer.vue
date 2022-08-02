@@ -38,6 +38,7 @@
                                     <li><router-link to="/terms#top">Terms of Service</router-link></li>
                                     <li><router-link to="/terms#privacy-policy">Privacy Policy</router-link></li>
                                     <li><router-link to="/terms#cookie-policy">Cookie Policy</router-link></li>
+                                    <li><router-link to="/value">Are you interested in buying our domain?</router-link></li>
                                 </ul>
                             </div>
                         </div>

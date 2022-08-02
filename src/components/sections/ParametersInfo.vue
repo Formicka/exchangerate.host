@@ -121,8 +121,7 @@ export default {
       default: true,
     },
     symbolsCustom: {
-      type: String,
-      default: false,
+      type: String
     },
     callback: {
       type: Boolean,

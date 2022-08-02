@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import StatusPage from "../views/StatusPage.vue";
 import SupportUsPage from "../views/SupportUsPage.vue";
 import TermsPage from "../views/TermsPage.vue";
+import ValuePage from "../views/ValuePage.vue";
 import VueHead from 'vue-head';
 
 Vue.use(VueHead, {
@@ -37,6 +38,11 @@ const routes = [
         path: "/donate",
         name: "SupportUsPage",
         component: SupportUsPage
+    },
+    {
+        path: "/value",
+        name: "ValuePage",
+        component: ValuePage
     },
     {
         path: '*',

@@ -249,7 +249,3 @@ export default {
   },
 };
 </script>
-
-<style>
-@import "./../assets/css/uptime.css";
-</style>
