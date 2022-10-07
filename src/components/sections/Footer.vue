@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="footer-copyright text-center">
-                    <small class="">© 2020-2021 Exchangerate.host, All Rights Reserved.</small>
+                    <small class="">© 2020-2022 Exchangerate.host, All Rights Reserved.</small>
                 </div>
             </div>
         </footer>
