@@ -30,9 +30,9 @@
                  who have your project in minds and hesitate wheter is worth of coding it. 
                 It is. If it will help one (even it is you) your effort will matter.
                 <br> Job well done spreads from one to hundreds and more.
-                <img src="https://user-images.githubusercontent.com/6382002/182347338-317117da-fafb-47be-be62-466d088bb28c.png" alt="stats" />
+                <img src="https://user-images.githubusercontent.com/6382002/194511720-a149868c-32dc-4d3c-b021-65672851cb51.png" alt="stats" />
               </p>
-
+              
               <h2 class="details-title">Are you interested in buying our domain?</h2>
               <p class="text">
                 People occasionally email us about buying the domain exchangerate.host from us. 
