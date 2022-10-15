@@ -18,6 +18,7 @@ Rates are updated around midnight UTC every working day.
 - PHP Laravel package [amrshawky/laravel-currency](https://github.com/amrshawky/laravel-currency)
 - forex rate web app [zayyarlin/d3viz](https://github.com/zayyarlin/d3viz), [forexrate.web.app](https://forexrate.web.app/)
 - .Net 5 Sample [serkanince/NetCoreBackgroundJobsSample](https://github.com/serkanince/NetCoreBackgroundJobsSample)
+- Vue Sample [artisticLogicMK/Infinity-Currency-Converter-v2](https://github.com/artisticLogicMK/Infinity-Currency-Converter-v2)
 
 ## Usage
 
