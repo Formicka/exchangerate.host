@@ -1,13 +1,14 @@
 ## [Exchangerate.host](https://exchangerate.host)
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X5261MF)
+[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=Kofi&color=%23fe8e86)](https://ko-fi.com/X8X5261MF)
+[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=Github&color=%23fe8e86)](https://github.com/sponsors/arzzen)
 
 ExchangeRate is a free API for current and historical foreign exchange rates published by the European Central Bank.
 
 A public instance of the API lives at locations:
 - Central Europe: [https://api.exchangerate.host](https://api.exchangerate.host).
-- Scandinavian region: [https://api-v2.exchangerate.host](https://api-v2.exchangerate.host)
-- Central America: coming soon
+- Scandinavian region: [https://api-eu.exchangerate.host](https://api-eu.exchangerate.host)
+- Central America: [https://api-us.exchangerate.host](https://api-us.exchangerate.host)
 
 Rates are updated around midnight UTC every working day.
 
