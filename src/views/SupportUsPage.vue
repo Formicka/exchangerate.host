@@ -71,7 +71,7 @@
                 beginning the things that take mental energy.
               </p>
               <a
-                href="https://ko-fi.com/lukasmestan"
+                href="https://ko-fi.com/exchangeratehost"
                 target="_blank"
                 class="mt-1"
                 ><img src="https://www.ko-fi.com/img/githubbutton_sm.svg"
