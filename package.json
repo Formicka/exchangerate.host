@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "@fnando/sparkline": "^0.3.10",
-        "@vue/cli": "^4.3.1",
+        "@vue/cli": "^5.0.8",
         "axios": "^0.21.2",
         "core-js": "^2.6.5",
         "dateformat": "^3.0.3",
