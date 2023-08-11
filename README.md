@@ -23,7 +23,7 @@ Rates are updated around midnight UTC every working day.
 - forex rate web app [zayyarlin/d3viz](https://github.com/zayyarlin/d3viz), [forexrate.web.app](https://forexrate.web.app/)
 - .Net 5 Sample [serkanince/NetCoreBackgroundJobsSample](https://github.com/serkanince/NetCoreBackgroundJobsSample)
 - Vue Sample [artisticLogicMK/Infinity-Currency-Converter-v2](https://github.com/artisticLogicMK/Infinity-Currency-Converter-v2)
-- Typescript/Javascript API client [@checksanity/exchangerate-host-api](https://github.com/CheckSanity/exchangerate-host-api)
+- Typescript/Javascript API client [@checksanity/exchangerate-host-api](https://www.npmjs.com/package/@checksanity/exchangerate-host-api)
 
 ## Usage
 
